@@ -1,0 +1,194 @@
+
+body{
+    margin: 0px;
+    background-color: rgb(233, 230, 230);
+}
+
+/*Colori pagina*/
+
+.bg-grayblue{
+    color: #eaeded;
+    background-color: #232f3e;
+}
+
+.bg-dark {
+    color: #eaeded;
+    background-color: #131921;
+}
+
+.bg-yellow {
+    color: #eaeded;
+    background-color:#f56600;
+}
+
+.c-white{
+    color: #eaeded;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+/*Header Css*/
+
+
+#logo-top{
+    width: 150px;
+    margin: 20px;
+}
+
+#navbar{
+    display: flex;
+    list-style-type: none;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+ 
+ }
+
+ li{
+    margin: 3px 10px 3px 20px;
+}
+
+/*Font*/
+
+.font-Ariel{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+/*Main Css*/
+
+.centra{
+    display: block;
+    margin: auto;
+    margin-top: 30px;;
+    width: 90%;
+ 
+ }
+
+
+ /*Primo Banner*/
+
+ #banner1{
+    padding: 5px;
+    font-weight: normal;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+/*Secondo Banner*/
+
+#banner2{
+    background-image: url(bg-image.png);
+    height: 170px;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+
+/*Raccolta di immagini*/
+
+
+#gift-bt{
+    padding: 20px 5px 5px 40px;
+    margin: 0;
+    font-weight: bold;
+}
+ 
+#photos{
+    display: flex;
+    list-style-type: none;
+    padding: 10px 30px 30px 30px;
+    margin: 0; 
+}
+
+.img1{
+    background-image: url(img_1.jpg);
+    background-size: cover;
+    position: center;
+}
+
+.img2{
+    background-image: url(img_2.jpg);
+    background-size: cover;
+    position: center;
+}
+
+.img3{
+    background-image: url(img_3.jpg);
+    background-size: cover;
+    position: center;
+}
+.img4{
+    background-image: url(img_4.jpg);
+    background-size: cover;
+    position: center;
+}
+
+
+
+.img-dim-small{
+    height: 300px;
+    width: 200px;
+    flex-basis: 25%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(206, 205, 205);
+}
+
+
+
+/*Terzo e Quarto Banner*/
+
+
+.banner3{
+    height: 420px;
+    background-image: url(img_9.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: center;
+}
+
+.banner4{
+    height: 420px;
+    background-image: url(img_10.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: center;
+}
+
+
+
+
+/*Logo Footer*/
+#logo-f{
+    width: 150px;
+    padding: 100px;
+}
+
+
+
+
+/*Rifiniture*/
+h2{
+    padding-top: 50px;
+}
+p{
+  margin: 5px 20px 40px 20px;
+}
+
+a{
+    display: block;
+    color: #eaeded;
+    padding: 10px;
+}
+
+span{
+    color: rgba(15, 101, 177, 0.743);
+}

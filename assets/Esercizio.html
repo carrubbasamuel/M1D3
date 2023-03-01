@@ -1,0 +1,120 @@
+<!-- Amazon Homepage
+
+Il tuo compito sarà ricreare la pagina Amazon fornita come allegato.
+
+Troverai tutti gli asset necessari in una cartella chiamata "assets".
+
+L'obiettivo è ricreare la pagina il più simile possibile all'immagine allegata.
+
+Suggerimenti:
+
+1. Font utilizzati nel mockup: Arial, Helvetica, sans-serif.
+
+2. Puoi usare delle estensioni del browser per controllare i codici colore del mockup, ad esempio ColorZilla
+
+3. Analizza il mockup e stabilisci alcune classi comuni con stili riutilizzabili
+
+Ad esempio:
+
+.text-center {
+text-align:center;
+width:100%;
+}
+
+.bg-dark {
+color: #eaeded;
+background-color:#222f3e;
+}
+
+.bg-yellow {
+color: #eaeded;
+background-color:#f56600;
+}
+
+.py-1 {
+padding: 1rem 0;
+}
+
+<div class="bg-yellow text-center py-1" >
+     <span>Shop All Holiday Gift Cards</span>
+</div>
+
+ <div class="bg-dark text-center py-1">
+    <span>Back to top</span>
+ </div>
+-->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Amazon Home</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        
+        <header class="bg-dark">
+            <img  id="logo-top" src="logo.png" alt="Logo Amazon">
+            <div class="bg-grayblue">
+               <ul id="navbar">
+                    <li>All</li>
+                    <li>Today's deals</li>
+                    <li>Costumer Service</li>
+                    <li>Registery</li>
+                    <li>Gift Cards</li>
+                    <li>Sell</li>
+               </ul>
+            </div>  
+        </header>
+
+
+
+        <main>
+
+            <div class="bg-yellow centra">
+                <p id="banner1" class="font-Ariel text-center" >Shop All Holiday Gift Card</p>
+            </div>
+
+
+            <div id="banner2" class="centra c-white font-Ariel">
+                <h2 class="text-center">Holiday Gift Guides</h2>
+                <h4 class="text-center">Be a go-gifter</h4>
+            </div>
+
+
+            <div class="centra bg-white">
+                <p id="gift-bt" class="font-Ariel">Find the perfect gift <span>Shop now</span></p>
+                <ul id="photos">
+                    <li class="img1 img-dim-small"></li>
+                    <li class="img2 img-dim-small"></li>
+                    <li class="img3 img-dim-small"></li>
+                    <li class="img4 img-dim-small"></li>
+                </ul>
+            </div>
+            
+
+            <span class="centra banner3"></span>
+            <p class="text-center font-Ariel">Play thegifting game <span>Shop gaming</span></p>
+            <span class="centra banner4"></span>
+            <p class="text-center font-Ariel">Play thegifting game <span>Shop Audio and Accessories</span></p>
+
+        </main>
+
+
+        <footer class="text-center bg-dark">
+
+            <div class="bg-grayblue">
+                <a class="font-Ariel" href="#">Back to shop</a>
+            </div>
+            <img id="logo-f" src="logo.png" alt="Logo Amazon">
+
+         </footer>
+    </body>
+</html>
